@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* this class will make fexcontainer around content and will center its alinment from verticat nd horizontal. And we can use it anywhere, where we want center alignment 
+Also  these(below ones) are property of flex conatiner so put this cass in footer itself or in div. not in items i.e para <P> ***********
+*/
+.flex-all-center {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* write .search btn clss and see difference in o/p */
+.btn {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+  
+    background-color:var( --main-bg-color);
+    border-radius: 4px;
+    border:2px solid rgb(11, 11, 11);
+    color: white;
+    padding: 5px 11px;
+    cursor:pointer; 
+                 /*-> hand shape will come on it*/
+
+}
+.btn:hover{
+    color:black;
+    font-weight: bolder;
+
+}
+
